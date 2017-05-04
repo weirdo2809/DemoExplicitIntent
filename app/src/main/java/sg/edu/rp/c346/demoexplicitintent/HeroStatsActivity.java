@@ -41,7 +41,9 @@ public class HeroStatsActivity extends AppCompatActivity {
                 // Create intent & pass in String data
                 Intent i = new Intent();
                 i.putExtra("like", "like");
-                // Set result to RESULT_OK to indicate normal			// response and pass in the intent containing the 		// like
+                // Set result to RESULT_OK to indicate normal
+                // response and pass in the intent containing the
+                // like
                 setResult(RESULT_OK, i);
                 finish();
             }});
